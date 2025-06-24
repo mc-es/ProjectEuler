@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 46
 It was proposed by Christian Goldbach that every odd composite number can be written as the sum of a prime and twice a square.

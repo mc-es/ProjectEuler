@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 38
 Take the number 192 and multiply it by each of 1, 2, and 3:
@@ -17,7 +17,7 @@ concatenated product of 9 and (1, 2, 3, 4, 5).
 What is the largest 1 to 9 pandigital 9-digit number that can be formed as the concatenated product of an integer with
 (1, 2, ..., n) where n > 1?
 
-Answer: 932718654 
+Answer: 932718654
 */
 
 public class Main {

@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 47
 The first two consecutive numbers to have two distinct prime factors are:

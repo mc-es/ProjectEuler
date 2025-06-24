@@ -1,5 +1,5 @@
 """
-@author: mces58
+@author: mc-es
 
 Problem 25
 The Fibonacci sequence is defined by the recurrence relation:

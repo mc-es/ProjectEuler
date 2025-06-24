@@ -1,5 +1,5 @@
 """
-@author: mces58
+@author: mc-es
 
 Problem 21
 Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).

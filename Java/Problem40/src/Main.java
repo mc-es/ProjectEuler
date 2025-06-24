@@ -1,5 +1,5 @@
 /*
-@author: mces58
+@author: mc-es
 
 Problem 40
 An irrational decimal fraction is created by concatenating the positive integers:
@@ -22,28 +22,28 @@ public class Main {
         int length = 1;
         int count = 9;
         int start = 1;
-        
+
         while (position > length * count) {
             position -= length * count;
             length++;
             count *= 10;
             start *= 10;
         }
-        
+
         int number = start + (position - 1) / length;
         String numberStr = Integer.toString(number);
-        
+
         return Character.getNumericValue(numberStr.charAt((position - 1) % length));
     }
-    
+
     public static int solve() {
         int product = 1;
         int[] positions = {1, 10, 100, 1000, 10000, 100000};
-        
+
         for (int pos : positions) {
             product *= findDigitAtPosition(pos);
         }
-        
+
         return product;
     }
 }

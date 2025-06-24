@@ -1,10 +1,10 @@
 import java.util.*;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 41
-We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once. 
+We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once.
 For example, 2143 is a 4-digit pandigital and is also prime.
 
 What is the largest n-digit pandigital prime that exists?
@@ -26,23 +26,23 @@ public class Main {
         }
         return true;
     }
-    
+
     public static int largestPandigitalPrime() {
-        for (int n = 9; n >= 1; n--) { 
+        for (int n = 9; n >= 1; n--) {
             String digits = "";
             for (int i = 1; i <= n; i++) {
                 digits += i;
             }
-            
+
             Set<String> pandigitalNumbers = new HashSet<>();
             permute(digits, 0, digits.length() - 1, pandigitalNumbers);
-            
+
             List<Integer> pandigitalList = new ArrayList<>();
             for (String numStr : pandigitalNumbers) {
                 pandigitalList.add(Integer.parseInt(numStr));
             }
             Collections.sort(pandigitalList, Collections.reverseOrder());
-            
+
             for (int num : pandigitalList) {
                 if (isPrime(num)) {
                     return num;
@@ -51,7 +51,7 @@ public class Main {
         }
         return -1;
     }
-    
+
     public static void permute(String str, int left, int right, Set<String> result) {
         if (left == right) {
             result.add(str);
@@ -63,7 +63,7 @@ public class Main {
             }
         }
     }
-    
+
     public static String swap(String str, int i, int j) {
         char[] charArray = str.toCharArray();
         char temp = charArray[i];

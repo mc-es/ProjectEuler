@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 14
 The following iterative sequence is defined for the set of positive integers:

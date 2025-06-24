@@ -1,5 +1,5 @@
-""" 
-@author: mces58
+"""
+@author: mc-es
 
 Problem 53
 There are exactly ten ways of selecting three from five, 12345:

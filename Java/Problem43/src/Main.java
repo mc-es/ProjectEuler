@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 43
-The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, but it also 
+The number, 1406357289, is a 0 to 9 pandigital number because it is made up of each of the digits 0 to 9 in some order, but it also
 has a rather interesting sub-string divisibility property.
 
 Let d1 be the 1st digit, d2 be the 2nd digit, and so on. In this way, we note the following:
@@ -26,26 +26,26 @@ public class Main {
     public static void main(String[] args) {
         long total = 0;
         List<String> permutations = generatePermutations("0123456789");
-        
+
         for (String number : permutations) {
             if (isValid(number)) {
                 total += Long.parseLong(number);
             }
         }
-        
+
         System.out.println("Result: " + total);
     }
 
     private static boolean isValid(String number) {
         int[] primes = {2, 3, 5, 7, 11, 13, 17};
-        
+
         for (int i = 0; i < primes.length; i++) {
             int subNumber = Integer.parseInt(number.substring(i + 1, i + 4));
             if (subNumber % primes[i] != 0) {
                 return false;
             }
         }
-        
+
         return true;
     }
 
@@ -57,16 +57,15 @@ public class Main {
 
     private static void permute(String prefix, String remaining, List<String> result) {
         int n = remaining.length();
-        
+
         if (n == 0) {
             result.add(prefix);
         } else {
             for (int i = 0; i < n; i++) {
-                permute(prefix + remaining.charAt(i), 
-                        remaining.substring(0, i) + remaining.substring(i + 1, n), 
+                permute(prefix + remaining.charAt(i),
+                        remaining.substring(0, i) + remaining.substring(i + 1, n),
                         result);
             }
         }
     }
 }
-

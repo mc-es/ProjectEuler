@@ -1,5 +1,5 @@
 """
-@author: mces58
+@author: mc-es
 
 Problem 39
 If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, there are exactly three solutions for p = 120.
@@ -31,4 +31,3 @@ for p in range(1, 1001):
 
 print("p value with the most solutions:", maxP)
 print("Number of solutions:", maxSolutions)
-

@@ -1,5 +1,5 @@
-""" 
-@author: mces58
+"""
+@author: mc-es
 
 Problem 48
 The series, 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317.

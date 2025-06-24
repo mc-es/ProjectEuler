@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 50
 The prime 41, can be written as the sum of six consecutive primes:

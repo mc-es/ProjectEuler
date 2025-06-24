@@ -1,5 +1,5 @@
 """
-@author: mces58
+@author: mc-es
 
 Problem 27
 
@@ -19,7 +19,7 @@ Considering quadratics of the form:
     where |n| is the modulus/absolute value of n
     e.g. |11| = 11 and |-4| = 4
 
-Find the product of the coefficients, a and b, for the quadratic expression that produces the maximum number of primes for consecutive values of n, 
+Find the product of the coefficients, a and b, for the quadratic expression that produces the maximum number of primes for consecutive values of n,
 starting with n = 0.
 
 Answer: -59231

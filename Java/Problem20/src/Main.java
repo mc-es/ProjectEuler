@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 20
 n! means n × (n − 1) × ... × 3 × 2 × 1

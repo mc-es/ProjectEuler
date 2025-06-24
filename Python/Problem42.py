@@ -1,5 +1,5 @@
 """
-@author: mces58
+@author: mc-es
 
 Problem 42
 The nth term of the sequence of triangle numbers is given by Tn=n(n+1)/2; so the first ten triangle numbers are:

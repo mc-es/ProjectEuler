@@ -1,5 +1,5 @@
 """
-@author: mces58
+@author: mc-es
 
 Problem 26
 A unit fraction contains 1 in the numerator. The decimal representation of the unit fractions with denominators 2 to 10 are given:

@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 54
 In the card game poker, a hand consists of five cards and are ranked, from

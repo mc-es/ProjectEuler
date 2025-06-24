@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 42
 The nth term of the sequence of triangle numbers is given by Tn=n(n+1)/2; so the first ten triangle numbers are:
@@ -45,7 +45,7 @@ public class Main {
 
         System.out.println("Number of triangle words: " + triangleWordCount);
     }
-    
+
     public static boolean isTriangleNumber(int n) {
         double x = (-1 + Math.sqrt(1 + 8 * n)) / 2;
         return x == (int) x;

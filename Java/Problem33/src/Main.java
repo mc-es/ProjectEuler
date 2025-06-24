@@ -1,5 +1,5 @@
 /*
-@author: mces58
+@author: mc-es
 
 Problem 33
 The fraction 49/98 is a curious fraction, as an inexperienced mathematician in attempting to simplify it may incorrectly believe that 49/98 = 4/8, which is correct, is obtained by cancelling the 9s.
@@ -33,7 +33,7 @@ public class Main {
 		// calculate the reduced denominator by dividing the denominator product with the greatest common divisor
 		int reducedDenominator = denominatorProduct / gcd;
 
-		System.out.println(reducedDenominator); 
+		System.out.println(reducedDenominator);
 	}
 
 	// returns true if the fraction is curious, false otherwise

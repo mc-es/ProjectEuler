@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 29
 Consider all integer combinations of a^b for 2 ≤ a ≤ 5 and 2 ≤ b ≤ 5:

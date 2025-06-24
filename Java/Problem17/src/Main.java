@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 17
 If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
@@ -25,7 +25,7 @@ public class Main {
 
 		System.out.println(totalLetters);
 	}
-	
+
 	// This dictionary maps numbers to their word forms, which we will use to calculate the total letter count
 	private static final Map<Integer, String> numberWord = new HashMap<Integer, String>() {
 		private static final long serialVersionUID = 1L;

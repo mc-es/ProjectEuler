@@ -2,7 +2,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 
 /*
-@author: mces58
+@author: mc-es
 
 Problem 19
 You are given the following information, but you may prefer to do some research for yourself.
